@@ -37,6 +37,6 @@
   },
   "license": "Unlicense",
   "dependencies": {
-    "node-vipstarcoin": "https://github.com/yutotetuota/node-vipstarcoin.git#master"
+    "node-vipstarcoin": "git://github.com/yutotetuota/node-vipstarcoin.git#master"
   }
 }
