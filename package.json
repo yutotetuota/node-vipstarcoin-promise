@@ -1,10 +1,10 @@
 {
-  "name": "bitcoin-promise",
-  "description": "Communicate with bitcoind via JSON-RPC",
+  "name": "vipstarcoin-promise",
+  "description": "Communicate with VIPSTARCOINd via JSON-RPC",
   "version": "1.3.1",
   "main": "lib/index.js",
   "keywords": [
-    "bitcoin",
+    "vipstarcoin",
     "promise",
     "json",
     "rpc"
@@ -20,7 +20,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/rcorbish/node-bitcoin-promise.git"
+    "url": "git://github.com/yutotetuota/node-vipstarcoin-promise.git"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -29,11 +29,14 @@
     "test": "make test"
   },
   "bugs": {
-    "url": "https://github.com/rcorbish/node-bitcoin-promise/issues"
+    "url": "https://github.com/yutotetuota/node-vipstarcoin-promise/issues"
   },
-  "homepage": "https://github.com/rcorbish/node-bitcoin-promise#readme",
+  "homepage": "https://github.com/yutotetuota/node-vipstarcoin-promise#readme",
   "directories": {
     "test": "test"
   },
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "dependencies": {
+    "node-vipstarcoin": "https://github.com/yutotetuota/node-vipstarcoin.git#master"
+  }
 }

@@ -1,26 +1,26 @@
-# node-bitcoin-promise
+# node-vipstarcoin-promise
 
 # Summary
 
-Add Promise support to [bitcoin](https://github.com/freewil/node-bitcoin/blob/master/Readme.md) package.
+Add Promise support to [node-vipstarcoin](https://github.com/yutotetuota/node-vipstarcoin/blob/master/Readme.md) package.
 It is backward compatible with the original package. If no callback function is
 passed in to a command a Promise is returned
 
 # Installation
 
 ```
-npm install bitcoin-promise
+npm install vipstarcoin-promise
 ```
 
 # Example
 
 ```
-var bitcoin = require( 'bitcoin-promise' ) ;
+var bitcoin = require( 'vipstarcoin-promise' ) ;
 
 var client = new bitcoin.Client({
   host: 'rcorbish.ydns.eu',
-  port: 18332,
-  user: 'bitcoinrpc',
+  port: 31916,
+  user: 'user',
   pass: 'password',
   timeout: 30000
 });
